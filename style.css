@@ -1,0 +1,123 @@
+body {
+	background: #94B3DE;
+
+	font-size: 15px;
+	font-weight:;
+	font-family: 'Segoe UI', Tahoma, Geneva, Vernada, sans-serif; 
+}
+
+
+a {
+	text-decoration: dashed;
+	color: #000;
+}
+
+a:hover {
+	text-decoration: underline;
+	color: #fff;
+}
+
+a:active {
+	color: #976132;
+}
+
+
+/*Когда посетили сайт*/
+a:visited {
+}
+
+.em {
+	font-weight: 700;
+}
+
+.visit {
+	font-weight: normal;
+	color: #575C5C;
+}
+
+.khabib {
+	width: 234px;
+	border-radius: 15%;
+	box-shadow: 9px 7px 10px #7D868B;
+}
+
+.info p {
+	color: #575C5C;
+	margin: 0;
+	font-style: italic;
+	font-weight: normal;
+	text-transform: none;
+	letter-spacing: 0.5px;
+	word-spacing: 1px
+}
+
+.info h4 {
+	color: #000;
+	font-weight: bold;
+
+}
+
+.info {
+	margin-bottom: 15px;
+}
+
+/*.infos h4 {
+	font-weight: bold;
+	font-size: 20px;
+}
+
+.infos {
+	background: #629797;
+	padding: 10px 5px;
+	margin: 20px;
+
+	border: 5px solid #4D9771;
+	border-bottom-style: dotted;
+	border-right-color: #97798C;
+	border-top-color: #97798C;
+
+}*/
+
+/*Сделать для всех элементов*/
+* {
+
+}
+
+.list {
+	padding: 0px 20px;
+}
+
+
+.bg-green {
+	background: #9BC194;
+}
+
+.bg-red {
+	background: #C194A3;
+}
+
+.container {
+	max-width: 750px;
+	margin: auto;
+}
+
+.card {
+	margin-bottom: 20px;
+	border-radius: 20px;
+	padding: 20px 25px
+}
+
+
+.card h2 {
+	margin-bottom: 15px; 
+}
+
+.card ul {
+	list-style: georgian;
+}
+
+.card li {
+	color: #78827C;
+	margin-bottom: 5px;
+	border-bottom: 1px solid #78827C;
+}
